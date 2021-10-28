@@ -33,3 +33,33 @@ $(document).ready(function() {
     });
 
 });
+
+$('.profile_head_menu_item>div').click(function() {
+    console.log($(this).children('.profile_head_menu_item_open').css('display'));
+
+    if ($(this).children('.profile_head_menu_item_open').css('display') == 'none') {
+        $(this).children('.profile_head_menu_item_open').toggle();
+    } else {
+        $(this).children('.profile_head_menu_item_open').hide();
+    }
+})
+
+$('.prof_sett>div').click(function() {
+    console.log($(this).children('.profile_head_menu_item_open').css('display'));
+
+    if ($(this).children('.profile_head_menu_item_open').css('display') == 'none') {
+        $(this).children('.profile_head_menu_item_open').toggle();
+    } else {
+        $(this).children('.profile_head_menu_item_open').hide();
+    }
+})
+
+$('.profile_head_menu_item_open_item').click(function() {
+    var val = $(this).text().trim();
+    $(this).parent('.profile_head_menu_item_open').siblings('span').html(val);
+
+})
+$('.select_click').click(function() {
+
+    $(this).children('.reason_wrap').toggle();
+})
