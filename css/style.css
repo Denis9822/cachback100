@@ -369,6 +369,10 @@ select:focus {
     margin-top: 14px !important;
 }
 
+.profile_head_menu_item_block>div {
+    z-index: 1111;
+}
+
 .section_dark_left_title span {
     font-style: normal;
     font-weight: bold;
@@ -1493,6 +1497,18 @@ select:focus {
 }
 
 @media screen and (max-width: 900px) {
+    .mt0 {
+        margin-top: 7px;
+    }
+    .pt0 {
+        padding-top: 4px !important;
+    }
+    .mt3 {
+        margin-top: 3px !important;
+    }
+    .pt0 .section_dark_left_list_flex {
+        grid-template-columns: 205px 1fr;
+    }
     .section_white {
         padding-top: 20px;
     }
@@ -1577,7 +1593,7 @@ select:focus {
     .profile_head_mobile_menu img,
     .profile_head_mobile_logo img {
         width: 100%;
-        height: auto;
+        height: 32px;
     }
     .profile_head_mobile_logo {
         width: 100px;
@@ -1604,7 +1620,7 @@ select:focus {
         box-sizing: border-box;
         border-radius: 27px;
         padding: 37px 49px;
-        z-index: 11111;
+        z-index: 111;
         display: none;
     }
     .profile_head_mobile_logo {
