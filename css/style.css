@@ -132,6 +132,14 @@ select:focus {
     opacity: 0.8;
 }
 
+.mt00 {
+    margin-top: 0 !important;
+}
+
+.a-i-c {
+    align-items: center;
+}
+
 .auth_form_email {
     margin-bottom: 25px;
 }
@@ -206,6 +214,10 @@ select:focus {
     margin-right: 57px;
 }
 
+.mr28 {
+    margin-right: 28px;
+}
+
 .profile_head_left_logout {
     align-items: center;
     display: flex;
@@ -251,6 +263,10 @@ select:focus {
 .profile_head_menu_item_open_item {
     padding: 2px 5px;
     cursor: pointer;
+}
+
+.profile_head_menu_item_open_item:hover {
+    background: #C4C4C4;
 }
 
 .ellips {
@@ -848,7 +864,8 @@ select:focus {
     cursor: pointer;
 }
 
-.center_block_slider_mob {
+.center_block_slider_mob,
+.center_block_slider_mob_en {
     display: none !important;
 }
 
@@ -878,6 +895,15 @@ select:focus {
     font-size: 20px;
     line-height: 24px;
     color: #000000;
+}
+
+.shop_title {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
 }
 
 .parthners_item_shop .parthners_item_info_date {
@@ -1273,6 +1299,16 @@ select:focus {
     transform: rotate(-0.32deg);
 }
 
+.imgmin img {
+    width: 50px !important;
+    height: auto;
+}
+
+.imgsmall img {
+    width: 40px !important;
+    height: auto;
+}
+
 .center_block_withdraw_info_row_text input::placeholder {
     font-style: normal;
     font-weight: 600;
@@ -1569,11 +1605,13 @@ select:focus {
     .profile_wrap {
         width: auto;
     }
-    .center_block_slider_mob {
+    .center_block_slider_mob,
+    .center_block_slider_mob_en {
         display: block !important;
         width: 98%;
     }
-    .center_block_slider_pc {
+    .center_block_slider_pc,
+    .center_block_slider_pc_en {
         display: none !important;
     }
     .profile_head {
@@ -1800,7 +1838,8 @@ select:focus {
     .section_white .section_dark_right_info {
         width: 100%;
     }
-    .center_block_slider_mob {
+    .center_block_slider_mob,
+    .center_block_slider_mob_en {
         display: block;
         width: 100%;
     }
@@ -1811,7 +1850,7 @@ select:focus {
     }
     .parthners_item_shop {
         display: grid;
-        grid-template-columns: 0.4fr 1.2fr 0.9fr;
+        grid-template-columns: 0.4fr 1.6fr 0.9fr;
     }
     .auth_wrap {
         width: 90%;

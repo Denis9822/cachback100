@@ -31,6 +31,20 @@ $(document).ready(function() {
         prevArrow: '<div class="slider_btn slider_prev"><img src="./img/icons/arrow-prev.svg" alt=""></div>',
         nextArrow: '<div class="slider_btn slider_next"><img src="./img/icons/arrow-next.svg" alt=""></div>',
     });
+    $('.center_block_slider_pc_en').slick({
+        slidesToShow: 7,
+        slidesToScroll: 1,
+        infinite: false,
+        prevArrow: '<div class="slider_btn slider_prev"><img src="../img/icons/arrow-prev.svg" alt=""></div>',
+        nextArrow: '<div class="slider_btn slider_next"><img src="../img/icons/arrow-next.svg" alt=""></div>',
+    });
+    $('.center_block_slider_mob_en').slick({
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        infinite: false,
+        prevArrow: '<div class="slider_btn slider_prev"><img src="../img/icons/arrow-prev.svg" alt=""></div>',
+        nextArrow: '<div class="slider_btn slider_next"><img src="../img/icons/arrow-next.svg" alt=""></div>',
+    });
 
 });
 
