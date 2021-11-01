@@ -1516,6 +1516,39 @@ select:focus {
     margin-bottom: 60px;
 }
 
+.mail_header {
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mail_header_logo {
+    width: 107px;
+}
+
+.mail_header_logo img {
+    width: 100%;
+    height: auto;
+}
+
+.mail_header_logo_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #000000;
+}
+
+.mail_content {
+    background: #9CACB2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 @media screen and (max-width: 1400px) {
     /* .profile_wrap {
         zoom: 1.2;
